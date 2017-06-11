@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head> 
-<title> To do</title>
-</head>
-
-<body> 
-<h1> To do list</h1>
-<img src="https://westgarth.files.wordpress.com/2015/02/codenow-logo.png" title="CodeNow logo">
-
-<ol> 
-<li> <input type="checkbox"> Walk the dog</li>
-<li> <input type="checkbox"> Read book</li>
-<li> <input type="checkbox"> Clean the room</li>
-
-</ol>
-
-<input type="text" placeholder="Your task">
-<input type="number" placeholder="Estimate the Pomodoros needed">
-<input type="submit">
-
-
-
-
-</body>
+    <head> 
+        <title> To do</title>
+        <link rel="stylesheet" href="css/index.css" type="text/css"/>
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+         crossorigin="anonymous"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    
+    <body> 
+        <h1> To do list</h1>
+        <img class="codenow-logo" src="https://westgarth.files.wordpress.com/2015/02/codenow-logo.png" title="CodeNow logo">
+        
+        <ol> 
+            <li>
+                 <input type="checkbox"> <a href="show.html">Walk the dog</a>
+                <span class="pomodoros"> 4 Pomodoros</span>
+                
+            </li>
+            <li> 
+                <input type="checkbox"> Read book
+                <span class="pomodoros"> 8 Pomodoros</span>
+            </li>
+            <li> 
+                <input type="checkbox"> Clean the room
+                <span class="pomodoros"> 2 Pomodoros</span>
+            </li>
+            
+        </ol>
+        
+        <input type="text" placeholder="Your task">
+        <input type="number" placeholder="Estimate the Pomodoros needed">
+        <input type="submit">
+        
+    
+    </body>
 
 </html>
+
+
+
